@@ -158,7 +158,7 @@ public class Casino implements KeyListener {
         canvas.createBufferStrategy(2);
         bufferStrategy = canvas.getBufferStrategy();
         canvas.requestFocus();
-        System.out.println("DONE graphic setup");
+        System.out.println("DONE graphic setup"); //comment for git (non-code related)
 
     }
 
