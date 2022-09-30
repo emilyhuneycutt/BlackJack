@@ -4,10 +4,19 @@ public class Player {
 
     public int score;
     public int nameNum;
-    public String name;
+    private String name;
     public int totalvalue=0;
 
     public ArrayList<Card>hand;
+
+    public String getName(){ //getter
+        return name;
+    }
+
+
+    public void setName (String name){ //setter
+        this.name = name;
+    }
 
     public Player(int pNameNum){
         score = 0;
